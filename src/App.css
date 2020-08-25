@@ -1,0 +1,33 @@
+.App {
+    min-height: calc(100vh - 16px);
+    min-width: calc(100vw - 16px);
+    background: silver;
+    padding: 8px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  .App-header h1 {
+    margin: 0;
+    color: black;
+    font-size: 20px;
+    padding: 0 14px 10px;
+  }
+  
+  .App-list {
+    display: flex;
+    flex-direction: column;
+    background-color: slategrey;
+    
+    
+  }
+
+  .split {
+      flex-direction: row;
+      display: flex;
+
+  }
+
+  img {
+      max-width: 50px;
+  }
